@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../Assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="safety.css">
+    <link rel="stylesheet" href="../1.Home/loader.css">
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--Poppins font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--Poiret One-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+
+    <!--Animate Css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!--Font Awesome-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Serpent Whispers</title>
+</head>
+
+
+<body class="bg-custom">
+    <div class="loader-container">
+        <div class="loader"></div>
+    </div>
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-sm bg-body-dark navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../1.Home/index.html"><img class="logo" src="../Assets/logo.png"></a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto d-flex gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link" id="home" aria-current="page" href="../1.Home/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="snake-facts-links" href="../1.Home/index.html#snake-facts">Snake
+                            Facts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="safety-tips" href="../2.Safety Tips/safety.html">Safety Tips</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" id="donate" href="../3.Donate/Donate.html">Donate</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Dangers-->
+    <div class="row" id="second-heading" style="padding-top:30px">
+        <h1 class="text-start display-2 ms-5">Recognize the Symptoms</h1>
+        <p class="heading-paragraph ms-5">While snakes are mesmerizing creatures, they can be hazardous, so staying informed and cautious is essential. Sometimes, a snake may bite, and in such cases, recognizing symptoms quickly is crucial for taking prompt action when every moment counts.
+        </p>
+    </div>
+
+    <div class="gallery-container">
+        <div class="gallery fade-in-up">
+            <img src="../Assets/Symptoms/1.jpg" alt="Bleeding">
+            <div class="description">Bleeding</div>
+        </div>
+        <div class="gallery fade-in-up">
+            <img src="../Assets/Symptoms/2.jpg" alt="Breathing Difficulties">
+            <div class="description">Breathing difficulties</div>
+        </div>
+        <div class="gallery fade-in-up">
+            <img src="../Assets/Symptoms/3.jpg" alt="Sweating">
+            <div class="description">Sweating</div>
+        </div>
+        <div class="gallery fade-in-up">
+            <img src="../Assets/Symptoms/4.jpg" alt="Vomiting">
+            <div class="description">Vomiting</div>
+        </div>
+        <div class="gallery fade-in-up">
+            <img src="../Assets/Symptoms/5.jpg" alt="Blurred Vision">
+            <div class="description">Blurred Vision</div>
+        </div>
+    </div>
+
+
+
+    <!--What to do if you see a snake-->
+    <div class="row" style="padding-top:30px">
+        <h1 class="text-start display-2 ms-5 fade-in-up">Swift Action, Safe Outcome</h1>
+        <p class="heading-paragraph ms-5">When seconds count, a basic knowledge of first aid can save lives. Stay
+            prepared with essential steps to follow in case of a bite.
+        </p>
+    </div>
+
+
+    <!--Accordian-->
+    <ul class="accordion" class="fade-in-up">
+        <li class="fade-in-up">
+            <input type="radio" name="accordion" id="first">
+            <label for="first">Stay Calm</label>
+            <div class="content">
+                <div class=image>
+                    <img src="../Assets/First Aid/1.jpg" alt="Stay Calm">
+                </div> &nbsp; &nbsp;
+                <p>Keeping calm helps slow the spread of venom if bitten. Panic increases heart rate, potentially
+                    speeding venom movement.</p>
+            </div>
+        </li>
+        <li class="fade-in-up">
+            <input type="radio" name="accordion" id="second">
+            <label for="second">Keep the Bite Below Heart Level
+            </label>
+            <div class="content">
+                <div class=image>
+                    <img src="../Assets/First Aid/2.jpg" alt="Bite Below Heart Level">
+                </div> &nbsp; &nbsp;
+                <p>This reduces the speed of venom spreading through the bloodstream. Stay as still as possible.</p>
+        </li>
+        <li class="fade-in-up">
+            <input type="radio" name="accordion" id="third">
+            <label for="third">Remove Tight Clothing or Jewelry</label>
+            <div class="content">
+                <div class=image>
+                    <img src="../Assets/First Aid/3.jpg" alt="No jewellery">
+                </div> &nbsp; &nbsp;
+                <p>Swelling can occur rapidly, so remove anything that might constrict the bitten area.
+                </p>
+        </li>
+        <li class="fade-in-up">
+            <input type="radio" name="accordion" id="fourth">
+            <label for="fourth">Immobilize the Affected Area</label>
+            <div class="content">
+                <div class=image>
+                    <img src="../Assets/First Aid/4.jpg" alt="Use a Splint">
+                </div> &nbsp; &nbsp;
+                <p>Use a splint or any firm material to limit movement of the bitten limb to prevent venom from
+                    spreading.</p>
+        </li>
+        <li class="fade-in-up">
+            <input type="radio" name="accordion" id="fifth">
+            <label for="fifth">Do Not Apply Ice, Cut, or Suck the Wound
+            </label>
+            <div class="content">
+                <div class=image>
+                    <img src="../Assets/First Aid/5.jpg" alt="No Ice">
+                </div> &nbsp; &nbsp;
+                <p>These methods can do more harm than good. Instead, seek immediate medical assistance.
+                </p>
+        </li>
+        <li class="fade-in-up">
+            <input type="radio" name="accordion" id="sixth">
+            <label for="sixth">Get Medical Help Promptly</label>
+            <div class="content">
+                <div class=image>
+                    <img src="../Assets/First Aid/6.jpg" alt="Mecical Help">
+                </div> &nbsp; &nbsp;
+                <p>Call emergency services or head to the nearest hospital, specifying the type of snake if you can
+                    safely identify it.</p>
+        </li>
+        </div>
+    </ul>
+
+    <!--Herpetologists-->
+    <div class="row" style="padding-top:30px">
+        <h1 class="text-start display-2 ms-5 fade-in-up">Reach Out to the Experts</h1>
+        <p class="heading-paragraph ms-5 fade-in-up">Whether for emergency advice or general knowledge, these
+            specialists are your go-to for all things related to snake safety.
+        </p>
+    </div>
+
+    <div class="specialists">
+        <div class="card3 fade-in-up">
+            <div class="face front">
+                <img src="../Assets/Herpetologists/1.jpeg" class="img-blur">
+                <div class="face front h3">
+                    <h3 class="text-center">Dr. Nuwan Perera</h3>
+                    <h2 class="text-center">Contact No:- <br>+94 71 294 5478</h2>
+                </div>
+            </div>
+        </div>
+        <div class="card3 fade-in-up">
+            <div class="face front">
+                <img src="../Assets/Herpetologists/2.jpeg" class="img-blur">
+                <div class="face front h3">
+                    <h3 class="text-center">Dr. Ishara Silva</h3>
+                    <h2 class="text-center">Contact No:- <br>+94 77 254 5168</h2>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card3 fade-in-up">
+            <div class="face front">
+                <img src="../Assets/Herpetologists/3.jpeg" class="img-blur">
+                <div class="face front h3">
+                    <h3 class="text-center">Mr. Malik Perera</h3>
+                    <h2 class="text-center">Contact No:- <br>+94 71 275 6348</h2>
+                </div>
+            </div>
+        </div>
+        <div class="card3 fade-in-up">
+            <div class="face front">
+                <img src="../Assets/Herpetologists/4.jpeg" class="img-blur">
+                <div class="face front h3">
+                    <h3 class="text-center">Ms. Dinithi Wijesinghe</h3>
+                    <h2 class="text-center">Contact No:-<br> +94 71 276 5348</h2>
+                </div>
+            </div>
+        </div>
+        <div class="card3 fade-in-up">
+            <div class="face front">
+                <img src="../Assets/Herpetologists/5.jpeg" class="img-blur">
+                <div class="face front h3">
+                    <h3 class="text-center">Dr.  Kusal Jayasinghe</h3>
+                    <h2 class="text-center">Contact No:-<br> +94 71 458 6237</h2>
+                </div>
+            </div>
+        </div>
+        
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--Footer-->
+        <footer>
+            <div class="footer-container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <a href="../1.Home/index.html"><img src="../Assets/logo.png" class="footer-logo">
+                            <h2 class="text-center" id="footer-brand-name">Serpent Whispers</h2>
+                            <h6 class="text-center" id="footer-slogan">Exploring the Wonders of Snakes</h4>
+                        </a>
+                    </div>
+                    <div class="col-sm-3">
+                        <h3 class="text-center">Quick Links</h3>
+                        <ul class="quick-links text-center">
+                            <li><a href="../1.Home/index.html">Home</a></li>
+                            <li><a href="../1.Home/index.html#snake-facts">Snake Facts</a></li>
+                            <li><a href="../2.Safety Tips/safety.html">Safety Tips</a></li>
+                            <li><a href="../3.Donate/Donate.html">Donate</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <h3 class="text-center">Follow Us</h3>
+                        <ul class="social-links text-center">
+                            <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://x.com/"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <h3 class="text-center">Contact</h3>
+                        <h6 class="text-center" id="contact-us-no">Phone : +94 71 234 5678</h6>
+                        <h6 class="text-center" id="contact-us-email">Email : serpentwhispers@gmail.com</h6>
+                    </div>
+
+                </div>
+            </div>
+    </div>
+    </footer>
+
+
+    <!--Javascript-->
+    <script src="../1.Home/loader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        window.onload = function () {
+
+            document.querySelector('.loader-container').style.display = 'none';
+
+
+            const mainHeading = document.getElementById('second-heading');
+            mainHeading.classList.add('animate__animated', 'animate__fadeInDown');
+
+
+            const fadeInUpElements = document.querySelectorAll('.fade-in-up');
+            const options = {
+                root: null,
+                threshold: 0.1
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animate__animated', 'animate__fadeInUp');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, options);
+
+
+            fadeInUpElements.forEach(element => {
+                observer.observe(element);
+            });
+        };
+    </script>
+
+</body>
+
+</html>

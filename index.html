@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../Assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="loader.css">
+
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+   <!--Poppins font-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+   <!--Poiret One--> 
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+
+   <!--Animate Css-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+  <!--Font Awesome-->
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+    <title>Serpent Whispers</title>
+</head>
+
+
+<body class="bg-custom">
+    <div class="loader-container">
+        <div class="loader"></div>
+    </div>
+<!--Navigation Bar-->
+  <nav class="navbar navbar-expand-sm bg-body-dark navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../1.Home/index.html"><img class="logo" src="../Assets/logo.png"></a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto d-flex gap-3">
+            <li class="nav-item">
+              <a class="nav-link" id="home" aria-current="page" href="../1.Home/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="snake-facts-links" href="#snake-facts">Snake Facts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="safety-tips" href="../2.Safety Tips/safety.html">Safety Tips</a>
+            </li>         
+            <li class="nav-item ">
+              <a class="nav-link"  id="donate" href="../3.Donate/Donate.html">Donate</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<!--Video Background-->
+<video autoplay loop muted class="bg-video">
+  <source src="../Assets/video.mp4" type="video/mp4">
+</video>
+
+<div class="header1 d-flex align-items-center justify-content-start ms-5" id="main-heading" style="height: 100vh;">
+  <h1 class="text-right display-1"> <span class="Brand-name">Serpent Whispers</span><br>Discover the Fascinating World of Snakes <br>
+
+<!--Quotes Section-->
+<div class="text-container ms-1 mt-3">
+  <div class="text">Those who understand the coils of the snake, understand power</div>
+  <div class="text">Only the brave dare to face the fangs</div>
+  <div class="text">Whisper your fears, the snake does not judge</div>
+  <div class="text">In the stillness, the answer stirs</div>
+  <div class="text">Silence is the truest speech of the snake</div>
+  <div class="text">The scales know time in a way no human can</div>
+  <div class="text">Skins change, but the heart of the snake remains the same</div>
+  <div class="text">The fangs bite only if provoked</div>
+  <div class="text">Trust the serpent's path, for it knows the way</div>
+  <div class="text">Seek knowledge, it hides in shadows</div>
+</div>
+
+</h1>
+</div>
+<div>
+  <button type="button"><a href="#snake-facts" class="text-decoration-none"><span class="button-span"></span>Explore &nbsp; <i class="fa fa-arrow-down"></i></a></button>
+</div>
+
+<!-- Carousel -->
+ <section id="snake-facts">
+<div class="row">
+<h1 class="text-start display-2 ms-5 fade-in-up">Do You Know?</h1>
+<p class="heading-paragraph ms-5 fade-in-up">Did you know that snakes possess unique adaptations that enhance their survival?<br> From detecting heat to identifying scents, these remarkable traits allow them to thrive in diverse environments.</p>
+</div>
+<div id="demo" class="carousel slide fade-in-up" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../Assets/Image Slider/1.jpg" alt="Diverse Diets" class="d-block">
+      <div class="carousel-caption">
+        <h3 class="carousel-caption-h3">Diverse Diets</h3>
+        <p class="carousel-caption-p">Snakes have a varied diet that can include mammals, birds, amphibians, fish, and even other snakes. Some species, like the king cobra, can consume large prey, including entire other snakes.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="../Assets/Image Slider/2.jpg" alt="Unique Senses" class="d-block">
+      <div class="carousel-caption">
+        <h3 class="carousel-caption-h3">Unique Senses</h3>
+        <p class="carousel-caption-p">Snakes have an extraordinary sense of smell, which they use to track prey. They flick their tongues to collect scent particles from the air and then bring them to a special organ called the Jacobson's organ for analysis</p>
+      </div>  
+    </div>
+    <div class="carousel-item">
+      <img src="../Assets/Image Slider/3.jpg" alt="Infrared Vision" class="d-block">
+      <div class="carousel-caption">
+        <h3 class="carousel-caption-h3">Infrared Vision</h3>
+        <p class="carousel-caption-p">Some snakes, such as pit vipers, boas, and pythons, possess specialized heat-sensing pits that allow them to detect infrared radiation. This enables them to "see" the body heat of their warm-blooded prey, even in complete darkness.</p>
+      </div>  
+    </div>
+    <div class="carousel-item">
+      <img src="../Assets/Image Slider/4.jpg" alt="Venom Variations" class="d-block">
+      <div class="carousel-caption">
+        <h3 class="carousel-caption-h3">Venom Variations</h3>
+        <p class="carousel-caption-p">Not all snake venom is the same. Venom can serve different purposes, such as immobilizing prey or aiding in digestion. Some venoms are cytotoxic, affecting cells, while others are neurotoxic, impacting the nervous system.</p>
+      </div>  
+    </div>
+    <div class="carousel-item">
+      <img src="../Assets/Image Slider/5.jpg" alt="Impressive Regeneration" class="d-block">
+      <div class="carousel-caption">
+        <h3 class="carousel-caption-h3">Impressive Regeneration</h3>
+        <p class="carousel-caption-p">While snakes don’t regenerate limbs like some other species, they can shed their skin regularly. This process, known as ecdysis, helps them get rid of parasites and allows for growth, making their skin look fresh and vibrant.</p>
+      </div> 
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+</section>
+<br><br><br>
+<!--Snake Varieties-->
+<div class="row" style="padding-top:30px">
+  <h1 class="text-start display-2 ms-5 fade-in-up">Snake Varieties</h1>
+  <p class="heading-paragraph ms-5 fade-in-up">Explore the incredible diversity of snakes, from the majestic King Cobra to the vibrant Green Tree Python. Each species showcases unique traits that highlight the wonders of the reptile world.</p>
+  </div>
+
+<!--Flip Cards--> 
+<div class="flip-cards">
+<div class="card1 fade-in-up">
+  <div class="face front">
+      <img src="../Assets/Snake Species Cards/1.jpeg">
+      <h3>King Cobra</h3>
+  </div>
+  <div class="face back">
+      <p>Largest venomous snake, known for its hood and deadly venom</p>
+      </div>
+</div>
+<div class="card1 fade-in-up">
+  <div class="face front">
+      <img src="../Assets/Snake Species Cards/2.jpeg">
+      <h3>Green Tree Python</h3>
+  </div>
+  <div class="face back">
+      <p> Non-venomous arboreal snake with vibrant green scales </p>
+  </div>
+</div>
+<div class="card1 fade-in-up">
+  <div class="face front">
+      <img src="../Assets/Snake Species Cards/3.jpeg">
+      <h3>Black Mamba</h3>
+  </div>
+  <div class="face back">
+      <p> Africa's longest venomous snake, fast-moving and highly venomous </p>
+  </div>
+</div>
+<div class="card1 fade-in-up">
+  <div class="face front">
+      <img src="../Assets/Snake Species Cards/4.jpeg">
+      <h3>Anaconda</h3>
+  </div>
+  <div class="face back">
+      <p>  Giant constrictor snake found in South America, known for its size and aquatic habitat</p>
+  </div>
+</div>
+<div class="card1 fade-in-up">
+  <div class="face front">
+      <img src="../Assets/Snake Species Cards/5.jpeg">
+      <h3>Gaboon Viper</h3>
+  </div>
+  <div class="face back">
+      <p>African viper with the longest fangs and distinct triangle-shaped head </p>
+  </div>
+</div>
+<div class="card1 fade-in-up">
+  <div class="face front">
+      <img src="../Assets/Snake Species Cards/6.jpeg">
+      <h3>Boomslang</h3>
+  </div>
+  <div class="face back">
+      <p> African tree snake with potent venom that affects blood clotting</p>
+  </div>
+</div>
+</div>
+
+
+<!--Myths-->
+<div class="row" style="padding-top:50px">
+  <h1 class="text-start display-2 ms-5 fade-in-up">Myths VS Reality</h1>
+  <p class="heading-paragraph ms-5 fade-in-up">Uncover the truths behind common snake myths, such as their ability to hear and their behavior around humans. These misconceptions often overshadow the fascinating realities of these remarkable creatures.</p>
+  </div>
+
+<div class="myths-cards">
+  <div class="card2 fade-in-up">
+    <div class="face front">
+        <img src="../Assets/Myths Cards/1.jpeg" class="img-blur">
+        <h3>Snakes Roll Down Hills Like Hoops</h3>
+        <div class="face front p">
+        <p>Some believe snakes bite their tails to form a hoop and roll down hills, but this behavior is impossible</p>
+      </div>
+      </div>
+  </div>
+  <div class="card2 fade-in-up">
+    <div class="face front">
+        <img src="../Assets/Myths Cards/2.jpeg" class="img-blur">
+        <h3>Snakes Steal Human Breath at Night</h3>
+        <div class="face front p">
+        <p>An old superstition claims snakes suck the breath from sleeping humans, but snakes avoid people</p>
+    </div>
+  </div>
+  </div>
+  <div class="card2 fade-in-up">
+    <div class="face front">
+        <img src="../Assets/Myths Cards/3.jpeg" class="img-blur">
+        <h3>Snakes Form Revenge Gangs</h3>
+        <div class="face front p">
+        <p>There's a myth that snakes will gather in groups to seek revenge if one of them is harmed.</p>
+    </div>
+  </div>
+  </div>
+  <div class="card2 fade-in-up">
+    <div class="face front">
+        <img src="../Assets/Myths Cards/4.jpeg" class="img-blur">
+        <h3>White Snakes Are Sacred</h3>
+        <div class="face front p">
+        <p>In some cultures, it's believed that white snakes are mystical and bring good fortune, but they are simply albino or leucistic snakes</p>
+    </div>
+  </div>
+  </div>
+  <div class="card2 fade-in-up">
+    <div class="face front">
+        <img src="../Assets/Myths Cards/5.jpeg" class="img-blur">
+        <h3>Snakes Can't Hear</h3>
+        <div class="face front p">
+        <p>Some think snakes are deaf, but they can detect vibrations and have a keen sense of hearing through their jawbones</p>
+    </div>
+  </div>
+  </div>
+  <div class="card2 fade-in-up">
+    <div class="face front">
+        <img src="../Assets/Myths Cards/6.jpeg" class="img-blur">
+        <h3>Snakes' Tongues Are Harmful</h3>
+        <div class="face front p">
+        <p>The forked tongue is thought to be harmful, but it's just a sensory tool for tasting the air</p>
+    </div>
+  </div>
+  </div>
+</div>
+
+<!--Footer-->
+<footer>
+  <div class="footer-container">
+   <div class="row">
+      <div class="col-sm-3" >
+          <a href="../1.Home/index.html"><img src="../Assets/logo.png" class="footer-logo">
+          <h2 class="text-center" id="footer-brand-name">Serpent Whispers</h2>
+          <h6 class="text-center" id="footer-slogan">Exploring the Wonders of Snakes</h4></a>
+      </div>
+      <div class="col-sm-3">
+          <h3 class="text-center">Quick Links</h3>
+          <ul class="quick-links text-center">
+              <li><a href="../1.Home/index.html">Home</a></li>
+              <li><a href="#snake-facts">Snake Facts</a></li>
+              <li><a href="../2.Safety Tips/safety.html">Safety Tips</a></li>
+              <li><a href="../3.Donate/Donate.html">Donate</a></li>
+          </ul>
+      </div>
+      <div class="col-sm-3">
+        <h3 class="text-center">Follow Us</h3>
+          <ul class="social-links text-center">
+              <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://x.com/"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
+          </ul>
+      </div>
+      <div class="col-sm-3">
+          <h3 class="text-center">Contact</h3>
+          <h6 class="text-center" id="contact-us-no">Phone : +94 71 234 5678</h6>
+          <h6 class="text-center" id="contact-us-email">Email : serpentwhispers@gmail.com</h6>
+      </div>
+
+   </div>
+  </div>
+</div>
+</footer>
+
+<!--Javascript-->
+<script src="loader.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+window.onload = function() {
+ 
+  document.querySelector('.loader-container').style.display = 'none';
+
+
+  const mainHeading = document.getElementById('main-heading');
+  mainHeading.classList.add('animate__animated', 'animate__fadeInDown');
+
+  
+  const fadeInUpElements = document.querySelectorAll('.fade-in-up');
+  const options = {
+      root: null,
+      threshold: 0.1 
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+          if (entry.isIntersecting) {
+              entry.target.classList.add('animate__animated', 'animate__fadeInUp');
+              observer.unobserve(entry.target); 
+          }
+      });
+  }, options);
+
+
+  fadeInUpElements.forEach(element => {
+      observer.observe(element);
+  });
+};
+</script>
+
+</body>
+</html>

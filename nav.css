@@ -1,0 +1,51 @@
+
+/*Navigation Bar*/
+.navbar{
+    background:linear-gradient(to right, #0f5132, #14452f, #18392b, #1d2e28);
+}
+.navbar-nav .nav-item {
+    margin-right: 60px; 
+  }
+  .nav-item{
+    font-size: 25px;
+  }
+  .nav-link {
+    position: relative; 
+    display: inline-block;
+  }
+
+.nav-link::after{
+    content:'';
+    height:3px;
+    width:0;
+    border-radius:50%;
+    background:linear-gradient(to right,#007542, #1e8c45, #3aa346,#58bb43, #78d23d,#9be931,#c1ff1c);
+    position: absolute;
+    left:0;
+    bottom:-5px;
+    transition:0.4s;
+}
+.nav-link:hover::after{
+    width:100%;
+}
+#home{
+    color: #a5ec60 !important}
+
+.logo{
+    width:10vh;
+    height:10vh;
+}
+.navbar-brand{
+    padding:50px;
+}
+.nav-link{
+    color:white!important;
+    font-weight: 500;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+
+}
+.nav-link:hover {
+    color: #a5ec60 !important;
+    font-weight: 500;
+    text-decoration: none;
+  }
