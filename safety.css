@@ -12,7 +12,6 @@ body{
     background-color: black;
 }
 
-/*Navigation Bar*/
 .navbar{
     background:linear-gradient(to right, #0f5132, #14452f, #18392b, #1d2e28);
 }
@@ -61,7 +60,6 @@ body{
     text-decoration: none;
   }
 
-/*Symptoms*/
 .gallery-container {
     display: flex;
     justify-content: center; 
@@ -101,8 +99,6 @@ body{
     filter:opacity(80%);
 }
 
-
-/*what to do*/
   .display-2{
     color:white;
     font-family: "Poiret One", sans-serif;
@@ -122,7 +118,6 @@ body{
     top:100px;
 }
 
-/*Accordian*/
   .accordion{
     position:relative;
     top:100px;
@@ -195,7 +190,7 @@ z-index:2;
 margin-right:auto;
 margin-left:auto;
 }
- /*Specialists*/
+
  .specialists{
     display: flex;
     justify-content: center;
@@ -266,8 +261,6 @@ margin-left:auto;
     opacity: 1; 
 }
 
-
-/*footer*/
 footer {
     background-color: #000000; 
     color: white; 
